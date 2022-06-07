@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from 'vue';
+import { hi } from '../ts';
 
-defineProps<{ msg: string }>()
-
-const count = ref(0)
+defineProps<{ msg: string }>();
+// help help this doesn't work
+const count = ref(0);
 </script>
 
 <template>
